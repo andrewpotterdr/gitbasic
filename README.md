@@ -1,2 +1,3 @@
-# gitbasic
-Tutorial básico de funcionalidades da ferramenta Git.
+# Git Basics
+
+## Tutorial básico dos principais procedimentos com Git.
