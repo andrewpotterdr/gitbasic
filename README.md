@@ -24,7 +24,7 @@ Ao executar o comando acima, você estará criando um novo branch no qual poder�
 Note que ao executar o comando acima aparece alguns branches, inclusive o branch com o seu nome, no entanto perceba que você ainda não saiu do branch `master`, na lista, o branch em qual você está é indicado com um asterisco antes do nome do branch. Exemplo `* master`. A seguir vamos descobrir como sair de um branch para outro.
 
 #### **8 -** Execute o comando `git checkout` seguido de seu nome, seguindo a mesma ideia do passo Nº 6. Exemplo `git checkout michael` ;
-O comando `git checkout` seguido do nome de um branch, faz com que você saia do branch corrente e entre no branch de destino especificado no comando.
+O comando `git checkout` seguido do nome de um branch, faz com que você saia do branch corrente e entre no branch de destino especificado no comando. Após executar o comando acima, é importante sempre executar novamente o comando `git branch` para checar se você está no branch desejado como indicado com um asterisco. Exemplo: `* michael`.
 
 #### **9 -** Uma vez estando dentro do branch de seu nome, crie um arquivo com seu nome com a extensão `.txt`. Exemplo: `touch michael.txt` ;
 Uma vez estando fora do branch `master` você poderá editar, adicionar arquivos da forma que achar melhor e se algo correr errado, poderá apagar esse branch, criar um outro branch e começar novamente.
